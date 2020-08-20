@@ -1,0 +1,97 @@
+.tategaki-wrap{
+    border: 1px tomato;
+    margin: 0 auto;
+    width: 1080px;
+}
+ 
+.tategaki{
+    background: #1E90FF;
+    padding: 20px;
+    width: 100%;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;   
+}
+ 
+h5 {
+    color: lightgray;
+  }
+  
+.face {
+  color: #FDFFFF;
+  opacity:0.6   /*空に少し透ける感じ*/
+  }      
+
+.back {
+  color: red;
+  opacity:0.5       /*透ける*/
+}
+
+
+button {     /*角を丸く*/
+  padding: 5px 15px;
+  background-color: tomato;
+  color: #FDFFFF;
+  border-style: none;
+  border-radius:10px 10px 10px 10px;
+}
+
+input {       /*角を丸く*/
+  height: 27px;
+  border-style: none;
+  border-radius:10px 10px 10px 10px;
+}
+
+p {
+    color:#FDFFFF;
+
+     position: relative; 
+     left:-30px; 
+}
+
+a {           
+    color:#FDFFFF;   
+   }
+
+
+/*.tategaki-title{
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+ 
+.box{
+    margin-left: 60px;
+}
+ */
+ 
+.mixed{
+    -webkit-text-orientation: mixed;
+    text-orientation: mixed;
+}
+ 
+.upright{
+    -webkit-text-orientation: upright;
+    text-orientation: upright;
+}
+ 
+.sideways{
+    -webkit-text-orientation: sideways;
+    text-orientation: sideways;
+}
+
+.input-area{
+writing-mode: initial;
+      transform: rotate(90deg);
+      transform-origin: top left;
+    }
+
+.click-area{
+writing-mode: initial;
+      transform: rotate(90deg);
+      transform-origin: top left;
+     
+}
+   
