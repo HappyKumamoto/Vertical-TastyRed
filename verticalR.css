@@ -1,3 +1,11 @@
+body {
+  background-image:url(150329.JPG);
+  background-repeat: no-repeat;
+  background-size: 1100px 600px;
+  background-position: center top 15px;
+  }
+
+
 .tategaki-wrap{
     border: 1px tomato;
     margin: 0 auto;
@@ -5,7 +13,7 @@
 }
  
 .tategaki{
-    background: #1E90FF;
+    /*background: #1E90FF; */
     padding: 20px;
     width: 100%;
     writing-mode: vertical-rl;
