@@ -13,9 +13,9 @@ function rotateHeader() {
   //3Dで動かす
   header.style.transform = 'rotate3D(1,1,1,'+ degree+'deg)';
 }
-setInterval(rotateHeader, 150);
+setInterval(rotateHeader, 120);
 //ゆったり回る感じ
-//150ミリ秒ごとにrotateHeader関数を実行する
+//120ミリ秒ごとにrotateHeader関数を実行する
 
 
 //回答欄とその下部分
